@@ -3,6 +3,6 @@ def reverse_string(string)
  reversed = []
  string.each do |i|
   reversed.unshift(i)
-  return reversed.join("")
  end
+ return reversed.join("")
 end
