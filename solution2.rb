@@ -1,5 +1,5 @@
-def fibonacci(n)
+def fibonnaci(n)
  return n if(0..1).include? n
- (fibonacci(n-1)+fibonacci(n-2))
+ (fibonnaci(n-1)+fibonnaci(n-2))
 end
 
